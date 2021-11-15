@@ -2,15 +2,32 @@
 body{
 	margin:0px;
 	padding:0px;
-	font-family: serif;
-	background: rgb(240, 248, 255);
+	font-family: montserrat,serif;
 }
 .header{
 	width:100%;
-	background-color: #4d4d4f;
+	background-color: #404040;
+}
+.stockhead{
+	font-size:14px;
+	margin:20px;
+	padding-left:150px;
+	color:white;
+	font-family:montserrat, san-serif;
+
 }
 
-
+.social{
+	margin:20px;
+	padding-left:50px;
+}
+.fa{
+	border-radius: 80%;
+	text-decoration:none;
+	margin-left:30px;
+	width:40px;
+	padding:10px;
+	text-align: center;
 }
 
 .fa:hover{
@@ -44,19 +61,43 @@ body{
      
 	
 }
-.form{
-	padding-top:10px;
+form.example{
+	padding:20px;
 }
-.logo img{
+
+form.example button{
+
+	border: 1px solid green;
+	width:20%;
+	padding-top:15px;
+	cursor:pointer;
+	color:white;
+}
+form.example button:hover{
+	background-color:green;
+	opacity:.5;
+	overflow:hidden;
+}
+form.example input[type=text]{
+	padding-top:15px;
+	border: 1px solid green;
+font-size:17px;	
+}
+.image{
+	margin-left:100px;
 	height:100px;
 	width:300px;
 }
-
+.opennav{
+	color:green;
+	font-size:50px;
+	cursor:pointer;
+}
 
 .sidenav {
-  display: fixed;
-  height: 90%;
-  width: 300px;
+  display:fixed;
+  height: 100%;
+  width: 400px;
   position: fixed;
   z-index: 1;
   top: 50px;
@@ -64,6 +105,12 @@ body{
   background-color: #EDEDEB;
   overflow-x: hidden;opacity: .75;
   
+}
+@media(max-height:768px){
+	.sidenav{
+        
+		height:1000px;
+	}
 }
 
 .sidenav a {
@@ -160,8 +207,7 @@ content: "7,335+ Sites";
 }
 }	
 	
-	
-.main{
+.main{  
 	width:100%;
 }
 .main span{
@@ -171,14 +217,71 @@ content: "7,335+ Sites";
 	font-size:120px;
 	color:silver;
 }
+.text-true{
+font-weight:bold;
+color:red;
+}
+
+
 #service{
 	padding:3%;
 }
+.box-1{
+	background-color:#C33235;
+}
+.box-2{
+	background-color:#8A8987;
+}
+.box-3{
+	background-color:#58C7C7;
+}
+.facility{
+	font-size:25px;
+}
+.text-para{
+	color:white;
+	font-size:25px;
+}
+.para{
+	color:white;
+}
+.angl{
+	color: white;
+	margin-right:20px;
+	padding-top:50px;
+	float:right;
+	font-size:50px;
+}
+
 #banner{
 	padding:3%;
 }
+.box-4{
+	background-color:#EDEDEB;
+} 
+.box-5{
+	background-color:#C33235;
+}
+.comp{
+	font-size:25px; color:white; text-align:center;
+}
+.text-sis{
+	color:white;
+}
+.agl-2{
+	color: white; margin-right:20px; float:right; font-size:50px;
+}
+.our-customers{
+	text-align:center; font-size:25px;
+}
 #wrapper{
 	padding:2%
+}
+.carrer{
+	font-size:30px;
+	margin-left:10px;
+	color:white;
+	padding:10px;
 }
 
 .card{
@@ -211,6 +314,10 @@ content: "7,335+ Sites";
 	
 	
 }
+p.security{
+	color:white;
+	font-size:25px;
+}
 #carrers{
 	padding:20px;
 }
@@ -236,13 +343,19 @@ content: "7,335+ Sites";
 .year{
 	margin-left:150px;
 }
+.number{
+	font-size:50px;
+}
+.test{
+	color:red;
+}
 #navigation{
 	padding-top:10px;
 }
 .footer{
 	
 	width:100%;
-	padding:50px;
+	padding:40px;
 	background:#4d4d4f;
 	font-size:20px;
 }
@@ -254,12 +367,17 @@ content: "7,335+ Sites";
 .footer a:hover{
 	color:white;
 }
-@media (max-width:768px){
+.footer hr{
+	color:white;
+}
+@media (max-width:1068px){
 	.footer{
 		width:100%;
+
 	}
 	.footer a{
 		display: block;
+		
 	
 		
 	}
